@@ -1,0 +1,145 @@
+.main {
+  background-color: #F3F5F6;
+  color: #CFCFCF;
+  height: 100vh;
+}
+
+
+#accountIcon {
+  position: flex;
+  font-size: 3vw;
+  color: #818181;
+  right: 3vw;
+  top: 3vw;
+}
+
+#accountIcon:hover {
+  color: #a8a8a8;
+}
+
+h1 {
+  color: #cfcfcf;
+  text-align: center;
+}
+
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.search {
+  display: flex;
+  justify-content: center;
+}
+
+.recipes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 24rem));
+  gap: 2rem;
+  justify-content: center;
+  padding: 5vw;
+}
+
+.recipe {
+  border-radius: 25px;
+  height: 36rem;
+  width: 24rem;
+  overflow: hidden;
+  box-shadow: 0 2px 20px;
+  display: flex; 
+  flex-direction: column;
+  cursor: pointer;
+  transition: transform 200ms ease-in;
+  background-color: 	#FF9900;
+}
+
+.recipe image {
+  height: 12rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.recipe title {
+  padding: 1rem;
+  font-size: 8px;
+}
+
+.recipe p{
+  text-align: center;
+}
+
+.recipe p img {
+  width: 18px;
+  display: inline-block;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+/* #signupForm {
+  margin: auto;
+  width: fit-content;
+  position: fixed; 
+  z-index: 1; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  padding-top: 50px;
+} */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* .modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; 
+  width: 80%; 
+} */
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.submit-btn {
+  position: relative;
+  border-radius: 0 2rem 0;
+  left: -7px;
+  padding: 0.5rem 2rem 0.5rem 2rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #486B38;
+  color: white;
+}

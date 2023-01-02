@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ab9c003e.css",
+    "main.js": "/static/js/main.6b8e4177.js",
+    "static/js/787.32d91862.chunk.js": "/static/js/787.32d91862.chunk.js",
+    "static/media/calorie_icon.png": "/static/media/calorie_icon.2cc7eb718ab4da961fbb.png",
+    "static/media/timer_icon.png": "/static/media/timer_icon.2da661cf4ca1eef3c1dd.png",
+    "index.html": "/index.html",
+    "main.ab9c003e.css.map": "/static/css/main.ab9c003e.css.map",
+    "main.6b8e4177.js.map": "/static/js/main.6b8e4177.js.map",
+    "787.32d91862.chunk.js.map": "/static/js/787.32d91862.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ab9c003e.css",
+    "static/js/main.6b8e4177.js"
+  ]
+}
